@@ -1,0 +1,56 @@
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: auto; 
+                overflow-y: auto; 
+            }
+
+            #mioForm {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            #loading-indicator {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(255, 255, 255, 0.9);
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                z-index: 1000;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            #loading-indicator img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+            hr {
+                border: none;
+                border-top: 1px solid #ccc; /* Colore grigio per la linea */
+                margin: 2px 2; /* Spaziatura sopra e sotto la linea */
+            }
+            .scroll-to-top {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                font-size: 24px;
+                background-color: #333;
+                color: #fff;
+                border: none;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                display: none;
+            }

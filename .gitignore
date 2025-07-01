@@ -1,0 +1,8 @@
+# Ignora file di configurazione sensibili
+config/prod/pdnd.properties
+config/prod/pk_anpr_produzione.priv
+htdocs/anpr/.htaccess
+config/test/
+config/log/app.log
+htdocs/anpr/users.properties
+htdocs/anpr/users.properties

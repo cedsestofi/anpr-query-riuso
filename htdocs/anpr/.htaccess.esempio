@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+
+Require 
+
+AuthType Basic
+AuthName ""
+AuthBasicProvider "ldap"
+AuthLDAPBindDN ""
+AuthLDAPBindPassword ""
+AuthLDAPURL ""

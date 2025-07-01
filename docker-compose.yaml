@@ -1,0 +1,29 @@
+services:
+  tomcat:
+    restart: always
+    image: tomcat:9.0.87-jdk8
+    container_name: backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config/log/:/opt/app/logs
+      - ./config/prod/pk_anpr_produzione.priv:/opt/app/pk.priv
+      - ./config/prod/pdnd.properties:/opt/app/pdnd.properties
+      - ./target/apiAnprPdnd-1.0.0.war:/usr/local/tomcat/webapps/apiAnprPdnd-1.0.0.war
+    networks: 
+      - anpr
+  my-php-apache:
+    build: 
+      context: .                  # Usa la cartella corrente come contesto
+      dockerfile: Dockerfile      # Nome del file Dockerfile 
+    restart: always
+    image: my-php-apache          # Nome dell'immagine dopo il build
+    container_name: frontend
+    ports:
+      - "8180:80"
+    volumes:
+      - ./htdocs:/var/www/html    # Monta la cartella locale "htdocs" nel container
+    networks: 
+      - anpr
+networks:
+    anpr:

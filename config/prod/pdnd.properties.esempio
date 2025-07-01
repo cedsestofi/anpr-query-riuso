@@ -1,0 +1,38 @@
+baseurlapiC001=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C001-servizioNotifica/v1/anpr-service-e002
+baseurlapiC016=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C016-servizioAccertamentoDichDecesso/v1/anpr-service-e002
+baseurlapiC021=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C021-servizioAccertamentoStatoFamiglia/v1/anpr-service-e002
+baseurlapiC024=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C024-servizioAccertamentoPaternita/v1/anpr-service-e002
+baseurlapiC025=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C025-servizioAccertamentoMaternita/v1/anpr-service-e002
+baseurlapiC030=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR-PDND/C030-servizioAccertamentoIdUnicoNazionale/v1/anpr-service-e002
+
+#kid della chiave pubblica caricata su pdnd es. 4OWnyvd6Lkxx5iee12qpoRkuweSMgJONUWwg4ZsrOaw
+kidPdnd=
+#clientid restituito da pdnd al client censito sulla piattaforma es. 371867ab-5331-4bb0-8743-f5f04048be3c
+clientIdPdnd=
+#purposeid restituito dalla pdnd a seguito della dichiarazione della finalit\u00e0 es. c6f72cd8-bd62-4315-a0fe-743332ee4946
+purposeIdPdndC001=
+purposeIdPdndC016=
+purposeIdPdndC021=
+purposeIdPdndC024=
+purposeIdPdndC025=
+purposeIdPdndC030=
+
+
+audPdnd=auth.interop.pagopa.it/client-assertion
+urltokenPdnd=https://auth.interop.pagopa.it
+
+#Token Agid-Jwt-Signature
+audTokenAgidJwtSignatureC001=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C001-servizioNotifica/v1
+audTokenAgidJwtSignatureC016=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C016-servizioAccertamentoDichDecesso/v1
+audTokenAgidJwtSignatureC021=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C021-servizioAccertamentoStatoFamiglia/v1
+audTokenAgidJwtSignatureC024=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C024-servizioAccertamentoPaternita/v1
+audTokenAgidJwtSignatureC025=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C025-servizioAccertamentoMaternita/v1
+audTokenAgidJwtSignatureC030=https://modipa.anpr.interno.it/govway/rest/in/MinInternoPortaANPR/C030-servizioAccertamentoIdUnicoNazionale/v1
+
+
+proxyhost=
+proxyport=
+proxyuser=
+proxypwd=
+
+casoUso=

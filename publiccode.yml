@@ -1,0 +1,35 @@
+publiccodeYmlVersion: 0.4.0
+name: CENSUS
+url: https://github.com/cedsestofi/anpr-query-riuso
+releaseDate: 2025-07-01
+platforms:
+  - web
+categories:
+  - data-visualization
+usedBy:
+  - Comune di Sesto Fiorentino
+developmentStatus: stable
+softwareType: standalone/web
+description:
+  it-IT:
+    shortDescription: Ricerca e visualizzazione dei dati presenti in ANPR per i
+      Comuni tramite PDND
+    longDescription: >-
+      Ricerca e visualizzazione dei dati presenti in ANPR per i Comuni tramite
+      PDND.
+
+      Log dettagliato degli accessi, predisposizione per autenticazione ldap.
+    documentation: https://github.com/cedsestofi/anpr-query-riuso/blob/main/README.md
+    features:
+      - Visure dati di residenza
+      - Visure Stato di Famiglia
+      - Visura esistenza in vita
+      - Visura Genitori
+legal:
+  license: AGPL-3.0-or-later
+maintenance:
+  type: none
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it-IT
